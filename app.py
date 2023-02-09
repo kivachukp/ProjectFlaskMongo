@@ -4,7 +4,7 @@ import bcrypt
 
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] ='7e3e5792d9f2adc9a8ea323c0a8d57c7351b70bc'
+app.config["SECRET_KEY"] ='7e3e5792d9f2adc9a8ea323c0a8d57c7351b70b'
 # app.config["MONGO_URI"] = "mongodb+srv://pasha:pasha@cluster1.hkmdr4z.mongodb.net/DB_Mongo?retryWrites=true&w=majority"
 
 cluster = MongoClient("mongodb+srv://pasha:pasha@cluster1.hkmdr4z.mongodb.net/DB_Mongo?retryWrites=true&w=majority")
